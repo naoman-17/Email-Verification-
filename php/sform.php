@@ -16,8 +16,8 @@
             $mail->isSMTP();                                           
             $mail->Host       = 'smtp.gmail.com';                     
             $mail->SMTPAuth   = true;                                   
-            $mail->Username   = 'naomanali17@gmail.com';     //your email                
-            $mail->Password   = 'iwrztxjyswqpwbdj';          //here first on the 2fa then make n password for the other app just bellow the option in 2fa in gmail.                     
+            $mail->Username   = 'test@gmail.com';     //your email                
+            $mail->Password   = 'password';          //here first on the 2fa then make n password for the other app just bellow the option in 2fa in gmail.                     
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
             $mail->Port       = 465;                                    
         
